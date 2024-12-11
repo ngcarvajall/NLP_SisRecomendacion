@@ -137,3 +137,5 @@ def top_games_by_genre(df, genre, top_n=5, orden='reviews'):
     top_games = filtered_df.sort_values(by=orden, ascending=False).head(top_n)
     
     return top_games
+
+    
